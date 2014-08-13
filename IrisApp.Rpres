@@ -1,0 +1,59 @@
+IrisApp
+========================================================
+author: Jahaziel Ponce
+date: Saturday, 13 August 2014
+
+First Slide
+========================================================
+
+This presentation show the app shiny for data iris.
+Show panels:
+
+- Plot
+- Summary
+- Table
+
+Plot
+========================================================
+
+
+This panel show histogram and boxplot or pie and barplot.
+Example:
+
+```{r, echo=FALSE}
+par(mfrow=c(1,2))
+hist(iris$Sepal.Length,main="Sepal.Length",xlab="")
+boxplot(iris$Sepal.Length,main="Sepal.Length")
+```
+
+Summary
+========================================================
+
+This panel show summary of data of the variable selected.
+Example:
+
+```{r}
+summary(iris$Sepal.Length)
+```
+
+table
+========================================================
+
+This panel show table of variable iris.
+Example:
+
+```{r}
+head(iris$Sepal.Length)
+```
+
+link
+========================================================
+
+### App
+Link app is: http://jahaziel.shinyapps.io/AppIris/
+
+Link github app is: https://github.com/Jazielinho/Iris
+
+### Code Rstudio Presenter
+Link Rstudio Presenter: https://github.com/Jazielinho/App-iris-Presentation
+
